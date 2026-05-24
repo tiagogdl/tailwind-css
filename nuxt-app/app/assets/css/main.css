@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@font-face {
+    font-family: Graphik-Bold;
+    src: url('../fonts/Graphik/Graphik-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Graphik-Regular;
+    src: url('../fonts/Graphik/Graphik-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-graphik-bold: 'Graphik-Bold', sans-serif;
+    --font-graphik-regular: 'Graphik-Regular', sans-serif;
+
+    --color-primaria: #2091F9;
+    --color-text: #252B42;
+    --color-secondary-text: #374754;
+    --color-dark-background: #252B42;
+
+    --breakpoint-tg: 400px;
+}
+
