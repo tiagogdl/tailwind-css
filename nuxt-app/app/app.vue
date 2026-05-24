@@ -1,11 +1,20 @@
 <template>
-  <div>
-    <div class="w-full flex gap-3 items-center flex-col tg:flex-row justify-center">
-      <div class="bg-blue-700 w-32 h-32  md:w-64 md:h-64"></div>
-      <div class="bg-blue-700 w-32 h-32  md:w-64 md:h-64"></div>
-      <div class="bg-blue-700 w-32 h-32  md:w-64 md:h-64"></div>
-    </div>
+  <UApp>
+    <div class="bg-dark-background">
+      <ButtonComp :variant="'primary'" :is-bold="true">
+        Try for Free
+      </ButtonComp>
 
-    
-  </div>
+      <ButtonComp :variant="'primary'">
+        Teste
+      </ButtonComp>
+    </div>
+  </UApp>
 </template>
+
+<script setup>
+import ButtonComp from './components/ButtonComp.vue';
+
+
+</script>
+
